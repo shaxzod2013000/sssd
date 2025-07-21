@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif
+}
+.container{
+    margin: 0 auto;
+
+}
+.header{
+    background: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 82px;
+    opacity: 1;
+    border: 2px solid red;
+}
+.kich2{
+    display: flex;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.kich2 p{
+    color: white;
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
+.ksi{
+    width: 192px;
+    height: 82px;
+    left: 1191px;
+    opacity: 1;
+    background: #F1A900;
+}
+
+.img{
+    width: 24px;
+    height: 24px;
+}
+.br{
+    display: flex;
+    width: 1440px;
+    height: 44px;
+    top: 82px;
+    opacity: 1;
+    background: #222222;
+    margin: 0 auto;
+}
+.br p{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+}
+.centre{
+    background-image:url(image\ 5.png);
+    width: 1440px;
+    height: 797px;
+    margin: 0 auto;
+    gap:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+.pc{
+    background: #F1A900;
+    width: 235px;
+    height: 73px;
+    align-items: center;
+    margin-top: 349px;
+    width: 199;
+    text-align: center;
+    align-content: center;
+
+}
+.console{
+    background: #000000;
+    color: white;
+    width: 235px;
+    height: 73px;
+    align-items: center;
+    margin-top: 349px;
+    width: 199;
+    text-align: center;
+    align-content: center;
+}
+
+
+.erangel{
+    background: #F1A90054;
+    width: 966px;
+    height: 202px;
+    margin: bottom 500px;;
+}
+.erangel h1{
+    font-family: Inter;
+    color: white;
+    font-weight: 700px;
+    font-style: Bold;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 70px;
+}
